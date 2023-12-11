@@ -86,3 +86,7 @@ Polygon3
 
 
 
+## Data Privacy
+
+The data in this paper is not available due to data privacy in the enterprise, but you can train this model on your dataset or using a publicly available dataset.
+
