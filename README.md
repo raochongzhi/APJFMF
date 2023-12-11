@@ -4,7 +4,7 @@
 
 ## Overview
 
-![](asset\model.jpg)
+![](asset/model.jpg)
 
 
 
