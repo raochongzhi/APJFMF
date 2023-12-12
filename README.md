@@ -88,49 +88,49 @@ The following is the structure of the entire code, you can put the corresponding
 
 ```
 dataset/
-├── dataset.csv           # <geek_id, job_id, label> pairs
+├── dataset.csv            # <resume_id, job_id, label> pairs
 ├── {train/valid/test}.dataset  # SimCSE and DeepFM representation
-├── dataset.py            # get {train/valid/test}.dataset
+├── dataset.py             # get {train/valid/test}.dataset
 model/
-├── APJFMF.py             # main model of this paper
-├── test.py               # model test process
-├── train.py              # model train process
+├── APJFMF.py              # main model of this paper
+├── test.py                # model test process
+├── train.py               # model train process
 dataprocess/
-├── negtive_sampling.py   # negtive sampling process
-├── entity_processing.py  # basic process for entities
+├── negtive_sampling.py    # negtive sampling process
+├── entity_processing.py   # basic process for entities
 crawl/
-├── qs_crawl_data.csv     # Crawl results for Chinese schools scores
+├── qs_crawl_data.csv      # Crawl results for Chinese schools scores
 PaddleOCR/
-├── download_from_url.py  # download Original Resume (multi file formats)
-├── word2pdf.py           # Recognition of word documents, if not recognized then to Pdf
-├── pdf2img.py            # Pdf batch convert to image
-├── imgOCR.py             # PaddleOCR process
-├── regular.py            #regular expression
+├── download_from_url.py   # download Original Resume (multi file formats)
+├── word2pdf.py            # Recognition of word documents, if not recognized then to Pdf
+├── pdf2img.py             # Pdf batch convert to image
+├── imgOCR.py              # PaddleOCR process
+├── regular.py             #regular expression
 SimCSE/
-├── simcse_train.py       # train SimCSE model
+├── simcse_train.py        # train SimCSE model
 ├── BERT/bert_wwm_ext_chinese_pytorch  # BERT chinese pretrained model
 SkillNER/
-├── skill_extract_job.py  # job skill entity extract
-├── resume_extract_job.py # resume skill entity extract
+├── skill_extract_job.py   # job skill entity extract
+├── resume_extract_job.py  # resume skill entity extract
 baselines/
 ├── stopwords/chinese_stopword.txt    # chinese stopwords for baselines
-├── word2vec_model        # train your word2vec model and put it here
-├── machine_learning.ipynb# machine laearning methods, train on jupyternotebook
-├── JRMPM.ipynb           # JRMPM model
-├── IPJF.ipynb            # IPJF model
-├── INEXIT.ipynb          # INEXIT model
-├── APJFNN.py             # APJFNN model
-├── BPJFNN.py             # BPJFNN model
+├── word2vec_model         # train your word2vec model and put it here
+├── machine_learning.ipynb # machine laearning methods
+├── JRMPM.ipynb            # JRMPM model
+├── IPJF.ipynb             # IPJF model
+├── INEXIT.ipynb           # INEXIT model
+├── APJFNN.py              # APJFNN model
+├── BPJFNN.py              # BPJFNN model
 ablation/
-├── APJFFF_all.ipynb      # the whole model
+├── APJFFF_all.ipynb       # the whole model
 ├── APJFMF_attention.ipynb # del attention module
 ├── APJFMF_coattention.ipynb # del co-attention module
 ├── APJFMF_simcse.ipynb    # del SimCSE module
 ├── back_deepfm_only.py    # del DeepFM module
 assets/
-├── model.jpg             # model figure
-README.md                 # explanatory document
-requirements.txt          # related Libraries & Dependencies
+├── model.jpg              # model figure
+README.md                  # explanatory document
+requirements.txt           # related Libraries & Dependencies
 ```
 
 
