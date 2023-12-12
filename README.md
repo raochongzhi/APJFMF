@@ -116,16 +116,17 @@ baselines/
 ├── stopwords/chinese_stopword.txt    # chinese stopwords for baselines
 ├── word2vec_model        # train your word2vec model and put it here
 ├── machine_learning.ipynb# machine laearning methods, train on jupyternotebook
-├── JRMPM.ipynb           # JRMPM model, train on jupyternotebook
-├── IPJF.ipynb            # IPJF model, train on jupyternotebook
-├── INEXIT.ipynb          # INEXIT model, train on jupyternotebook
-├──  # train on the cluster
-
+├── JRMPM.ipynb           # JRMPM model
+├── IPJF.ipynb            # IPJF model
+├── INEXIT.ipynb          # INEXIT model
+├── APJFNN.py             # APJFNN model
+├── BPJFNN.py             # BPJFNN model
 ablation/
 ├── APJFFF_all.ipynb      # the whole model
 ├── APJFMF_attention.ipynb # del attention module
 ├── APJFMF_coattention.ipynb # del co-attention module
 ├── APJFMF_simcse.ipynb    # del SimCSE module
+├── back_deepfm_only.py    # del DeepFM module
 assets/
 ├── model.jpg             # model figure
 README.md                 # explanatory document
