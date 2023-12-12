@@ -126,7 +126,7 @@ ablation/
 ├── APJFMF_attention.ipynb # del attention module
 ├── APJFMF_coattention.ipynb # del co-attention module
 ├── APJFMF_simcse.ipynb    # del SimCSE module
-├── back_deepfm_only.py    # del DeepFM module
+├── back_deepfm_only.py    # del free text module
 assets/
 ├── model.jpg              # model figure
 README.md                  # explanatory document
