@@ -137,5 +137,5 @@ requirements.txt           # related Libraries & Dependencies
 
 ## Data Privacy
 
-The data in this paper is not available due to data privacy in the enterprise, but you can train this model on your dataset or using a publicly available dataset.
+Due to the highly sensitive nature of personal resume information and the data confidentiality agreement signed between the researchers of this paper and the relevant enterprise, the data portion cannot be disclosed to the public. Nevertheless, this study will provide the format of the model's data input, allowing subsequent researchers to utilize their own acquired data to conduct research.
 
